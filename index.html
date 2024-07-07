@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./scripts/script.js"></script>
+    <title>Cotizacion</title>
+</head>
+<body>
+    <div id = "cotizacion"></div>
+    <!-- <script>
+        let cotizacion = document.querySelector("#cotizacion")
+        fetch("https://api.estadisticasbcra.com/usd_of", {
+            headers: {
+                Authorization: 
+                "BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTA3MDUyNzEsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJlemVkYXF1aUBnbWFpbC5jb20ifQ.F5dCJCBHiXtFcoAHaHrtPsK6udL8OdMxHB_GiGJUAAI27CydsJyBBfHErx3HRLanDQovTLidsefTWqxajTyi7Q"
+            },
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            console.log(data)
+
+            data.forEach((user) =>{
+                const content = document.createElement("div")
+                content.innerHTML = `
+                <h2>${user.d}</h2>
+                <h2>${user.v}</h2>
+                <hr>
+                `
+                cotizacion.append(content)
+            })
+        })
+
+    </script> -->
+</body>
+</html>
